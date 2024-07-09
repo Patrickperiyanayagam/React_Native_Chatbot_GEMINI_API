@@ -9,7 +9,7 @@ const {
   } = require("@google/generative-ai");
   
   const MODEL_NAME = "gemini-1.0-pro-001";
-  const API_KEY = "AIzaSyDy3rmPD2C3qWAc1aTOXVcU2vXQUrbSM9s";
+  const API_KEY = "API_KEY";
 const ChatScreen = () => {
     const param = useRoute().params
     const [messages, setMessages] = useState([])
